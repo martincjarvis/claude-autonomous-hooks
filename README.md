@@ -1,3 +1,29 @@
+<!-- PORTFOLIO-BANNER:START -->
+> **🗂️ Portfolio archive — Claude Code hooks toolkit (JS/shell).** Hooks that guard against common failure modes in autonomous development. Part of a consolidated set of my personal repositories and **not actively maintained**.
+
+<details>
+<summary><b>📋 Self-review — 5 good practices &amp; 5 things I'd improve</b></summary>
+
+**✅ Good practices demonstrated**
+1. Clear problem framing — six named failure modes the hooks are designed to prevent.
+2. LICENSE present.
+3. Organised `hooks` / `scripts` / `templates` / `docs` layout.
+4. Focused, single-responsibility scope.
+5. Documented rationale for each hook.
+
+**⚠️ Weaknesses / what I'd do differently today**
+1. Very small (≈13 files, a handful of commits) — proof-of-concept stage.
+2. No tests or CI exercising the hooks.
+3. Hooks are workflow/environment-specific, which limits reuse.
+4. No versioning or release process.
+5. README claims ("bulletproof") run ahead of demonstrated validation.
+
+</details>
+
+---
+<!-- PORTFOLIO-BANNER:END -->
+
+
 # Claude Autonomous Hooks
 
 Bulletproof hooks for autonomous development with Claude Code.
@@ -25,7 +51,7 @@ Prevents 6 common failure modes in autonomous development:
 ## Quick Install
 
 ```bash
-git clone https://github.com/mcj-coder/claude-autonomous-hooks.git
+git clone https://github.com/martincjarvis/claude-autonomous-hooks.git
 cd claude-autonomous-hooks
 ./scripts/install.sh
 ```
