@@ -117,7 +117,7 @@ Contributions welcome! Please open an issue or PR.
 
 ## Author
 
-Created by Martin Jarvis ([@mcj-coder](https://github.com/mcj-coder))
+Created by Martin Jarvis ([@martincjarvis](https://github.com/martincjarvis))
 
 ## See Also
 
